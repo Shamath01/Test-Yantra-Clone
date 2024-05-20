@@ -1,0 +1,85 @@
+.numbers{
+  color: rgb(22 45 82);
+  font-size: 35px;
+  line-height: 42px;
+  font-weight: 700;
+}
+.headding{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 80px;
+}
+.box{
+  width: 330px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  transition: 0.6s;
+}
+.box:hover{
+  box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.1);
+  transform: translateY(-10px);
+}
+
+.count{
+  color: rgb(242 127 61);
+  font-weight: 700;
+  font-size: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.box h2{
+  color: rgb(22 45 82);
+  font-size: 25.2px;
+  font-weight: 700 !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.globe{
+  margin-left: 45px;
+}
+.team{
+  margin-left: 45px;
+}
+.engineers{
+  margin-left: 55px;
+}
+
+.plus{
+  font-size: 25.2px;
+  font-weight: 800;
+}
+
+.line{
+  height: 3px;
+  width: 20px;
+  position: absolute;
+  background-color: #f27f3d;
+  bottom: 8;
+  margin-bottom: -315px;
+  margin-left: -280px;
+}
+
+.box:hover .line{
+  width: 235px;
+}

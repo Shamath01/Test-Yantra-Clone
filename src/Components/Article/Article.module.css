@@ -1,0 +1,101 @@
+.art{
+  background-color: #f2f6f9;
+  padding-top: 96px;
+}
+
+.articl{
+  color: rgb(22 45 82);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  font-size: 18px;
+}
+
+.cont{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;  
+  align-items: center;
+  padding-bottom: 85px;
+  margin-left: 15px;
+  gap: 80px;
+}
+.container{
+  height: 530px;
+  width: 361px;
+  position: relative;
+  transition: 0.6s;
+}
+
+.container:hover{
+  box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.1);
+  transform: translateY(-10px);
+  background-color: white;
+}
+
+.container h3{
+  margin-top: 45px;
+  margin-bottom: 8px;
+  padding-left: 30px;
+  line-height: 21px;
+  font-size: 14px;
+  color:rgb(87, 100, 124);
+  font-weight: 400;
+}
+
+.container h1{
+  padding-right: 20px;
+  padding-left: 30px;
+  line-height: 28px;
+  font-size: 20px;
+  font-weight: 700 !important;
+  color:rgb(87, 100, 124);
+}
+
+.container h2{
+  padding-right: 20px;
+  padding-left: 30px;
+  line-height: 25.2px;
+  font-size: 14px;
+  color:rgb(87, 100, 124);
+  font-weight: 400;
+  margin: 10px 0px 0px;
+}
+
+.container img{
+  margin-top: 10px;
+  width: 361px;
+  height: 193px;
+}
+
+.readButton{
+  padding: 6px 10px 6px 8px;
+  border-radius: 5px;
+  background-color: #f27f3d;
+  color: #fff;
+  border: none;
+  transition: .5s;
+  opacity: 1 !important;
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;  
+  align-items: center;
+}
+
+.btn{
+  padding-right: 120px;
+  padding-left: 30px;
+  align-self: flex-end;
+  position: absolute; 
+  bottom: 0;
+  width: 100%;
+}
+.arrow{
+  height: 15px;
+  width: 15px;
+  margin-left: 6px;
+  margin-right: 3px;
+}

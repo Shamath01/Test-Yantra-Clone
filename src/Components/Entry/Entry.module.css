@@ -1,0 +1,104 @@
+.main{
+  padding: 20px 32px 40px 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  margin-top: 90px;
+}
+
+.first{
+  width: 55%;
+  margin-right: 20px;
+}
+
+/* src/components/RotatingText.css */
+.rotating_text {
+  font-size: 1.5em;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.15em solid;
+  animation: blink-caret 0.75s step-end infinite;
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(255, 255, 255);
+  }
+}
+
+.head2{
+  color: rgb(22 45 82);
+  font-weight: 700;
+  font-size: 18px;
+}
+.head1{
+  color: rgb(242 127 61);
+  font-weight: 700;
+  font-size: 28px; 
+}
+.head3, .H3{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 27px;
+}
+
+.second img{
+  width: 78%;
+  border-radius: 15px;
+  margin: 10px 20px 10px 100px;
+}
+
+.startButton{
+  padding: 11px 14px 10px 16px;
+  background-color: rgb(19 56 100);
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+.startButton:hover{
+  cursor: pointer;
+  background-color: rgb(242 127 61);
+}
+.startButton:hover .arrow{
+  color: white;
+}
+
+.arrow{
+  color: rgb(242 127 61);
+  margin-left: 11px;
+}
+
+
+ /* Image */
+
+.second{
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+}
+
+.slide {
+  object-fit: cover;
+  transition: opacity 1s ease-in-out;
+
+}
+
+/* To ensure the image covers the entire slider area */
+.second img {
+  width: 610px;
+  height: 387px;
+  object-fit: cover;
+}
