@@ -5,7 +5,7 @@ import IT from '/Users/shama/test_yentra/src/Components/Images/ProfServices/IT.p
 import DSS from '/Users/shama/test_yentra/src/Components/Images/ProfServices/DSS.png'
 import SDD from '/Users/shama/test_yentra/src/Components/Images/ProfServices/SDD.png'
 import CrowdTesting from '/Users/shama/test_yentra/src/Components/Images/ProfServices/crowdTesting.png'
-import thumb from '/Users/shama/test_yentra/src/Components/Images/video-thumbnail5.png'
+import thumb from '/Users/shama/test_yentra/src/Components/Images/VideoThumbnail/video-thumbnail5.png'
 
 const Service = () => {
   return (
