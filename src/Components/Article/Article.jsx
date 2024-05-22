@@ -1,8 +1,8 @@
 import React from 'react'
 import Style from './Article.module.css'
-import blog15 from '/Users/shama/test_yentra/src/Components/Images/blog15.jpg'
-import blog14 from '/Users/shama/test_yentra/src/Components/Images/blog14.jpg'
-import blog13 from '/Users/shama/test_yentra/src/Components/Images/blog13.jpg'
+import blog15 from '/Users/shama/test_yentra/src/Components/Images/Blog/blog15.jpg'
+import blog14 from '/Users/shama/test_yentra/src/Components/Images/Blog/blog14.jpg'
+import blog13 from '/Users/shama/test_yentra/src/Components/Images/Blog/blog13.jpg'
 import { FaArrowRight } from "react-icons/fa";
 
 

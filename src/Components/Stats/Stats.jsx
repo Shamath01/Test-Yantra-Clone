@@ -2,10 +2,10 @@ import React from 'react'
 import Style from './Stats.module.css'
 import CountUp from 'react-countup'
 import { ImPlus } from "react-icons/im";
-import LocImg from '/Users/shama/test_yentra/src/Components/Images/location.png'
-import globe from '/Users/shama/test_yentra/src/Components/Images/ClientAcrossGlobe.png'
-import team from '/Users/shama/test_yentra/src/Components/Images/TeamMembers.png'
-import engineers from '/Users/shama/test_yentra/src/Components/Images/OnDemandEngineers.png'
+import LocImg from '/Users/shama/test_yentra/src/Components/Images/Statistics/location.png'
+import globe from '/Users/shama/test_yentra/src/Components/Images/Statistics/ClientAcrossGlobe.png'
+import team from '/Users/shama/test_yentra/src/Components/Images/Statistics/TeamMembers.png'
+import engineers from '/Users/shama/test_yentra/src/Components/Images/Statistics/OnDemandEngineers.png'
 
 const Stats = () => {
   return (

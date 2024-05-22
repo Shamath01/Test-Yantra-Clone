@@ -1,10 +1,10 @@
 import React from 'react'
 import Style from './Service.module.css'
-import Tass from '/Users/shama/test_yentra/src/Components/Images/Taas.png'
-import IT from '/Users/shama/test_yentra/src/Components/Images/IT.png'
-import DSS from '/Users/shama/test_yentra/src/Components/Images/DSS.png'
-import SDD from '/Users/shama/test_yentra/src/Components/Images/SDD.png'
-import CrowdTesting from '/Users/shama/test_yentra/src/Components/Images/crowdTesting.png'
+import Tass from '/Users/shama/test_yentra/src/Components/Images/ProfServices/Taas.png'
+import IT from '/Users/shama/test_yentra/src/Components/Images/ProfServices/IT.png'
+import DSS from '/Users/shama/test_yentra/src/Components/Images/ProfServices/DSS.png'
+import SDD from '/Users/shama/test_yentra/src/Components/Images/ProfServices/SDD.png'
+import CrowdTesting from '/Users/shama/test_yentra/src/Components/Images/ProfServices/crowdTesting.png'
 import thumb from '/Users/shama/test_yentra/src/Components/Images/video-thumbnail5.png'
 
 const Service = () => {

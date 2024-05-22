@@ -5,7 +5,7 @@ import { FaYoutube } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import logo from '/Users/shama/test_yentra/src/Components/Images/partnerlogo2.svg'
+import logo from '/Users/shama/test_yentra/src/Components/Images/Logos/partnerlogo2.svg'
 // import globe from '/Users/shama/test_yentra/src/Components/Images/740.jpg'
 
 const Footer = () => {
