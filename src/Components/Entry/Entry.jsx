@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from 'react'
-import Style from './Entry.module.css'
+import React, { useEffect, useState, useCallback } from 'react';
+import Style from './Entry.module.css';
 import { FaArrowRight } from "react-icons/fa";
-import banner1 from '/Users/shama/test_yentra/src/Components/Images/banner1.png'
-import banner2 from '/Users/shama/test_yentra/src/Components/Images/banner2.png'
-import banner3 from '/Users/shama/test_yentra/src/Components/Images/banner3.png'
-
+import banner1 from '/Users/shama/test_yentra/src/Components/Images/banner1.png';
+import banner2 from '/Users/shama/test_yentra/src/Components/Images/banner2.png';
+import banner3 from '/Users/shama/test_yentra/src/Components/Images/banner3.png';
 
 const lines = [
   "Accelerate Business Efficiency..",
@@ -25,6 +24,12 @@ const images = [
 const Entry = () => {
   
   const [currentLine, setCurrentLine] = useState(0);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const nextSlide = useCallback(() => {
+    const newIndex = (currentImageIndex + 1) % images.length;
+    setCurrentImageIndex(newIndex);
+  }, [currentImageIndex]); // useCallback dependency array
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -34,29 +39,16 @@ const Entry = () => {
     return () => clearInterval(interval); // Cleanup on unmount
   }, []);
 
-
-    // Images
-    const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
   useEffect(() => {
     const interval = setInterval(() => {
       nextSlide();
-    }, 3000,[]); // Adjust the interval as needed (e.g., 3000ms = 3 seconds)
+    }, 3000); // Adjust the interval as needed (e.g., 3000ms = 3 seconds)
 
     return () => clearInterval(interval);
-  }, [currentImageIndex]);
+  }, [nextSlide]); // Include nextSlide in the useEffect dependency array
 
-  const nextSlide = () => {
-    const newIndex = (currentImageIndex + 1) % images.length;
-    setCurrentImageIndex(newIndex);
-  };
-
-  
-
-  
-
-return (
-  <div className={Style.main}>
+  return (
+    <div className={Style.main}>
       <article className={Style.first}>
         <h2 className={Style.head2}>With Test Yantra Global</h2>
         <div className={Style.rotating_text}>
@@ -68,14 +60,14 @@ return (
         <button className={Style.startButton}>Get Started Free<FaArrowRight className={Style.arrow}/></button>
       </article>
       <article className={Style.second}>
-      <img
-        src={images[currentImageIndex]}
-        alt={`Banner ${currentImageIndex}`}
-        className="slide"
-      />
+        <img
+          src={images[currentImageIndex]}
+          alt={`Banner ${currentImageIndex}`}
+          className="slide"
+        />
       </article>
     </div>
-  )
-}
+  );
+};
 
-export default Entry
+export default Entry;

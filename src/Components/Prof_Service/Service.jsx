@@ -5,6 +5,7 @@ import IT from '/Users/shama/test_yentra/src/Components/Images/IT.png'
 import DSS from '/Users/shama/test_yentra/src/Components/Images/DSS.png'
 import SDD from '/Users/shama/test_yentra/src/Components/Images/SDD.png'
 import CrowdTesting from '/Users/shama/test_yentra/src/Components/Images/crowdTesting.png'
+import thumb from '/Users/shama/test_yentra/src/Components/Images/video-thumbnail5.png'
 
 const Service = () => {
   return (
@@ -14,38 +15,38 @@ const Service = () => {
       </div>
       <div className={Style.down}>
         <div className={Style.cont}>
-            <img src={Tass} alt="image" />
+            <img src={Tass} alt="Tass" />
             <h1>Software Testing Service (TaaS)</h1>
             <h3>We offer cost-effective, reliable and scalable software testing services.</h3>
             <div className={Style.line}></div>
         </div>
         <div className={Style.cont}>
-          <img src={IT} alt="image" />
+          <img src={IT} alt="IT" />
         <h1>IT Software Skills Enhancement</h1>
         <h3>Our customized and curated training models help organizations elevate their IT quotient.</h3>
         <div className={Style.line}></div>
         </div>
         <div className={Style.cont}>
-          <img src={DSS} alt="image" />
+          <img src={DSS} alt="DSS" />
           <h1>Deployment & Support Services</h1>
           <h3>Our team of experts help you craft a winning IT strategy for your organization.</h3>
           <div className={Style.line}></div>
         </div>
         <div className={Style.cont}>
-          <img src={SDD} alt="image" />
+          <img src={SDD} alt="SDD" />
           <h1>Software Design & Development</h1>
           <h3>We deliver IT solutions in a wide variety of verticals and elevate businesses to the next level.</h3>
           <div className={Style.line}></div>
         </div>
         <div className={Style.cont}>
-          <img src={CrowdTesting} alt="image" />
+          <img src={CrowdTesting} alt="Testing" />
           <h1>Crowd Testing</h1>
           <h3>We offer comprehensive crowd-testing services, leveraging a global network of skilled testers.</h3>
           <div className={Style.line}></div>
         </div>
       </div>
-      <div className={Style.youtube_video_container}>
-        <a href="https://youtu.be/tuwxrL7Kh4E?si=oCTlJuFZFVMrBRbc"></a>
+      <div>
+        <a href="https://youtu.be/tuwxrL7Kh4E?si=oCTlJuFZFVMrBRbc"><img src={thumb} alt="Thumbnail" className={Style.thumbnail} /></a>
       </div>
     </div>
   )

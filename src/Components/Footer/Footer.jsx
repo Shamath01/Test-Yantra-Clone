@@ -24,7 +24,7 @@ const Footer = () => {
       </div>
       <div className={Style.info}>
         <div className={Style.logo}>
-          <div className={Style.image}>
+          <div className={Style.im}>
             <img src={logo} alt="logo" />
           </div>
             <div className={Style.content}>

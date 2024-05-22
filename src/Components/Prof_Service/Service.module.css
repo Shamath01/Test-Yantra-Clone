@@ -77,14 +77,9 @@
   transform: translateY(-10px);
 }
 
-.youtube_video_container{
-  width: 901px;
+ .thumbnail{
+  width: 850px;
   height: 386px;
   margin-top: 50px;
-  padding-bottom: 60px;
-  background-image: url('/src/Components/Images/video-thumbnail5.png');
-  background-size: 98%;
-  background-position: center;
-  background-repeat: no-repeat;
   margin-bottom: 60px;
 }
