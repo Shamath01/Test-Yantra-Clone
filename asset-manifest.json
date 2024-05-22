@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Test-Yantra-Clone/static/css/main.fab1548f.css",
+    "main.js": "/Test-Yantra-Clone/static/js/main.f6a99bba.js",
+    "static/media/740.jpg": "/Test-Yantra-Clone/static/media/740.b5e7af4bfb8755fc264b.jpg",
+    "static/media/banner2.png": "/Test-Yantra-Clone/static/media/banner2.dc79deedaf81447c8c1d.png",
+    "static/media/banner1.png": "/Test-Yantra-Clone/static/media/banner1.81b49e6dcd884ee80807.png",
+    "static/media/banner3.png": "/Test-Yantra-Clone/static/media/banner3.644c2bc73d783f4f1e31.png",
+    "static/media/video-thumbnail5.png": "/Test-Yantra-Clone/static/media/video-thumbnail5.a6455b155f4964e91f73.png",
+    "static/media/partnerlogo2.svg": "/Test-Yantra-Clone/static/media/partnerlogo2.cfb33fa0b547ef651a7fba3cfb158dc7.svg",
+    "static/media/blog13.jpg": "/Test-Yantra-Clone/static/media/blog13.a961d2b40f83b4a87aac.jpg",
+    "static/media/blog15.jpg": "/Test-Yantra-Clone/static/media/blog15.fe65f6aeb11c116b688a.jpg",
+    "static/media/logo.svg": "/Test-Yantra-Clone/static/media/logo.17565700c52c996d0dbdb0d7303ec13e.svg",
+    "index.html": "/Test-Yantra-Clone/index.html",
+    "main.fab1548f.css.map": "/Test-Yantra-Clone/static/css/main.fab1548f.css.map",
+    "main.f6a99bba.js.map": "/Test-Yantra-Clone/static/js/main.f6a99bba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fab1548f.css",
+    "static/js/main.f6a99bba.js"
+  ]
+}
