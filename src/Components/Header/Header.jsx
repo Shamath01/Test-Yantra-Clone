@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '/Users/shama/test_yentra/src/Components/Images/logo.svg'
+import testYentra from '/Users/shama/test_yentra/src/Components/Images/logo.svg'
 import { Link } from 'react-router-dom'
 import "../../Global.css"
 import Style from './Header.module.css'
@@ -12,7 +12,7 @@ const Header = () => {
     <div className={Style.Header}>
       <header>
         <div>
-          <img className={Style.logo} src={Logo} alt="Test Yentra"/>
+          <img className={Style.testYentralogo} src={testYentra} alt="Test Yentra"/>
         </div>
         
         <div className={Style.navBar}>
