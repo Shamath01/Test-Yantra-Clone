@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import Image from '/Users/shama/test_yentra/src/Components/Images/Front_Image.png'
 import Style from './Entry.module.css'
 import { FaArrowRight } from "react-icons/fa";
 import banner1 from '/Users/shama/test_yentra/src/Components/Images/banner1.png'
@@ -42,7 +41,7 @@ const Entry = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       nextSlide();
-    }, 3000); // Adjust the interval as needed (e.g., 3000ms = 3 seconds)
+    }, 3000,[]); // Adjust the interval as needed (e.g., 3000ms = 3 seconds)
 
     return () => clearInterval(interval);
   }, [currentImageIndex]);
