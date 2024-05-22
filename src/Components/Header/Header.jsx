@@ -1,5 +1,5 @@
 import React from 'react'
-import testYentra from '/Users/shama/test_yentra/src/Components/Images/logo.svg'
+import testYentra from '/Users/shama/test_yentra/src/Components/Images/Yantra.svg'
 import { Link } from 'react-router-dom'
 import "../../Global.css"
 import Style from './Header.module.css'
