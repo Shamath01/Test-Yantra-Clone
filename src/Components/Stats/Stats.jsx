@@ -2,7 +2,7 @@ import React from 'react'
 import Style from './Stats.module.css'
 import CountUp from 'react-countup'
 import { ImPlus } from "react-icons/im";
-import location from '/Users/shama/test_yentra/src/Components/Images/location.png'
+import LocImg from '/Users/shama/test_yentra/src/Components/Images/location.png'
 import globe from '/Users/shama/test_yentra/src/Components/Images/ClientAcrossGlobe.png'
 import team from '/Users/shama/test_yentra/src/Components/Images/TeamMembers.png'
 import engineers from '/Users/shama/test_yentra/src/Components/Images/OnDemandEngineers.png'
@@ -16,7 +16,7 @@ const Stats = () => {
       <div className={Style.container}>
         <div className={Style.box}>
             <div>
-              <img src={location} alt="location" className={Style.location}/>
+              <img src={LocImg} alt="location" className={Style.Loc}/>
               <div className={Style.count} ><CountUp end={6} duratio={4}/></div></div>
               <h2> Countries &</h2><h2>Growing</h2>
               {/* <div className={Style.line}></div> */}
