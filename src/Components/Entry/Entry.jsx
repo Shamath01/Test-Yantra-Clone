@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import Style from './Entry.module.css';
 import { FaArrowRight } from "react-icons/fa";
-import banner1 from '/Users/shama/test_yentra/src/Components/Images/banner1.png';
+// import banner1 from '/Users/shama/test_yentra/src/Components/Images/banner1.png';
 import banner2 from '/Users/shama/test_yentra/src/Components/Images/banner2.png';
 import banner3 from '/Users/shama/test_yentra/src/Components/Images/banner3.png';
 
@@ -16,7 +16,7 @@ const lines = [
 ];
 
 const images = [
-  banner1,
+  // banner1,
   banner2,
   banner3
 ];
